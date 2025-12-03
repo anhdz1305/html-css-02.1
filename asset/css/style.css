@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -35,20 +36,21 @@ a {
 .btn:hover {
     opacity: 0.8;
 }
-/* header */
 
+/* header */
+.fixed {
+    padding-top: 42px;
+    position: sticky;
+    z-index: 1;
+    top: -42px;
+    background: #fff;
+}
 .header .body {
-    margin-top: 42px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
 }
-.header .fixed {
-    position: sticky;
-    top: -42px;
-}
-
 .header .body .nav {
     color: #2f3a3b;
 }
@@ -331,13 +333,13 @@ header .body .btn-nav .sign-up,
     font-weight: 700;
 }
 .courses-section .course-card .card-content .desc-text {
-    margin-top: 6px;
+    margin-top: 12px;
     color: #9da6a5;
     font-size: 1.4rem;
     font-weight: 400;
 }
 .courses-section .course-card .card-content .course-stats {
-    margin-top: 18px;
+    margin-top: 24px;
 }
 .courses-section .card-content .course-stats {
     display: flex;

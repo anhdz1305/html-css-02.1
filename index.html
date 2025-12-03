@@ -32,17 +32,17 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
     </head>
-    <body style="height: 4000px;">
-        <header class="header">
+    <body>
+        <header class="header fixed">
             <div class="main-content">
-                <div class="body fixed">
+                <div class="body">
                     <a href="#"><img src="./asset/img/Logo.svg" class="logo-body"></img></a>
                     <nav class="nav">
                         <a href="#">Home</a>
-                        <a href="#!">Features</a>
-                        <a href="#!">Pricing</a>
-                        <a href="#!">About</a>
-                        <a href="#!">Contact</a>                       
+                        <a href="#features">Features</a>
+                        <a href="#courses">Pricing</a>
+                        <a href="#statistics">About</a>
+                        <a href="#testimonial">Contact</a>                       
                     </nav>
                     <div class="btn-nav">
                         <a href="#!" class="btn sign-in">Sign In</a>
@@ -97,7 +97,7 @@
                 </div>
             </div>
             <!-- features -->
-            <div class="features">
+            <div id="features" class="features">
                 <div class="main-content">
                     <div class="features-section">
                         <div class="content">
@@ -136,7 +136,8 @@
                     </div>
                 </div>
             </div>  
-            <div class="courses">
+            <!-- courses -->
+            <div id="courses" class="courses">
                 <div class="main-content">
                     <div class="courses-section">
                         <div class="content">
@@ -152,9 +153,9 @@
                             <div class="courses-list">
                                 
                                 <div class="course-card">
-                                    <img src="./asset/img/course-1.jpg" alt="Web Design Course on Laptop" class="course-image">
+                                    <a href="#!"><img src="./asset/img/course-1.jpg" alt="Web Design Course on Laptop" class="course-image"></a>
                                     <div class="card-content">
-                                        <h3>Web Design</h3>
+                                        <a href="#!"><h3>Web Design</h3></a>
                                         <div class="fee-info">
                                             <p class="fee">Fee <span>$200</span></p>
                                             <p class="desc-text">Web design basic to higer level</p>
@@ -173,9 +174,9 @@
                                 </div>
     
                                 <div class="course-card">
-                                    <img src="./asset/img/course-2.jpg" alt="Web Development Course on Laptop" class="course-image">
+                                    <a href="#!"><img src="./asset/img/course-2.jpg" alt="Web Development Course on Laptop" class="course-image"></a>
                                     <div class="card-content">
-                                        <h3>Web Development</h3>
+                                        <a href="#!"><h3>Web Development</h3></a>
                                         <div class="fee-info">
                                             <p class="fee">Fee <span>$250</span></p>
                                             <p class="desc-text">Web development basic to higer level</p>
@@ -183,7 +184,7 @@
                                          <div class="course-stats">
                                             <div class="stat-item ">
                                                 <div class="dots"></div>
-                                                <p>40 Classes</p>
+                                                <p>30 Classes</p>
                                             </div>
                                             <div class="stat-item">
                                                 <div class="dots"></div>
@@ -194,9 +195,9 @@
                                 </div>
     
                                 <div class="course-card">
-                                    <img src="./asset/img/course-3.jpg" alt="UI/UX Design Course on Laptop" class="course-image">
+                                    <a href="#!"><img src="./asset/img/course-3.jpg" alt="UI/UX Design Course on Laptop" class="course-image"></a>
                                     <div class="card-content">
-                                        <h3>UI/UX Design</h3>
+                                        <a href="#!"><h3>UI/UX Design</h3></a>
                                         <div class="fee-info">
                                             <p class="fee">Fee <span>$350</span></p>
                                             <p class="desc-text">UI/UX design basic to higer level</p>
@@ -204,7 +205,7 @@
                                          <div class="course-stats">
                                             <div class="stat-item ">
                                                 <div class="dots"></div>
-                                                <p>40 Classes</p>
+                                                <p>50 Classes</p>
                                             </div>
                                             <div class="stat-item">
                                                 <div class="dots"></div>
@@ -219,7 +220,7 @@
                 </div>
             </div>
             <!-- statistics -->
-            <div class="statistics">
+            <div id="statistics" class="statistics">
                 <div class="main-content">
                     <div class="statistics-section">
                         <div class="statistics-list">
@@ -244,7 +245,7 @@
                 </div>
             </div>
             <!-- testimonial -->
-            <div class="testimonial">
+            <div id="testimonial" class="testimonial">
                 <div class="main-content">
                     <section class="testimonial-section">
                         <div class="testimonial-content">
@@ -329,27 +330,27 @@
                     <div class="footer-col">
                         <h4 class="col-title">Company</h4>
                         <ul class="link-list">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Press</a></li>
+                            <li><a href="#!">About</a></li>
+                            <li><a href="#!">Careers</a></li>
+                            <li><a href="#!">Press</a></li>
                         </ul>
                     </div>
     
                     <div class="footer-col">
                         <h4 class="col-title">Community</h4>
                         <ul class="link-list">
-                            <li><a href="#">Team Plans</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Students</a></li>
-                            <li><a href="#">Scholarships</a></li>
+                            <li><a href="#!">Team Plans</a></li>
+                            <li><a href="#!">Blog</a></li>
+                            <li><a href="#!">Students</a></li>
+                            <li><a href="#!">Scholarships</a></li>
                         </ul>
                     </div>
     
                     <div class="footer-col">
                         <h4 class="col-title">Teaching</h4>
                         <ul class="link-list">
-                            <li><a href="#">Become a teacher</a></li>
-                            <li><a href="#">Teaching academy</a></li>
+                            <li><a href="#!">Become a teacher</a></li>
+                            <li><a href="#!">Teaching academy</a></li>
                         </ul>
                     </div>
     
@@ -357,16 +358,16 @@
                         <h4 class="col-title">Be social</h4>
                         <ul class="link-list ">
                             <li class="social-list">
-                                <a href="#"><img src="./asset/img/icon-tw.svg"> <span>Twitter</span></a>
+                                <a href="#!"><img src="./asset/img/icon-tw.svg"> <span>Twitter</span></a>
                             </li>
                             <li class="social-list">  
-                                <a href="#"><img src="./asset/img/icon-fb.svg"><span>Facebook</span></a>
+                                <a href="#!"><img src="./asset/img/icon-fb.svg"><span>Facebook</span></a>
                             </li>
                             <li class="social-list">                           
-                                <a href="#"><img src="./asset/img/icon-ins.svg"> <span>Instagram</span></a>
+                                <a href="#!"><img src="./asset/img/icon-ins.svg"> <span>Instagram</span></a>
                             </li>
                             <li class="social-list">  
-                                <a href="#"><img src="./asset/img/icon-linkin.svg"> <span>Linkedin</span></a>
+                                <a href="#!"><img src="./asset/img/icon-linkin.svg"> <span>Linkedin</span></a>
                             </li>
                         </ul>
                     </div>
